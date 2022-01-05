@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(235, 235, 232);
+
+}
+.title{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    margin: 100px 0 20px;
+    font-size: 84px;
+}
+.number{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 84px;
+    color: green;
+    margin-bottom: 60px;
+    font-family: 'Mukta', sans-serif;
+}
+.buttons{
+    display: flex;
+justify-content: center;
+
+}
+.butts{
+    width: 150px;
+    height: 40px;
+    margin-right: 100px;
+    background-color: inherit;
+    border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    border-style: solid;
+}
+.butts:last-child{
+    margin-right: 0;
+}
+.butts:active{
+    border-color: lightblue;
+}
+.butts:hover{
+    background-color: rgb(214, 214, 211);
+}
